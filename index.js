@@ -33,7 +33,7 @@ class Transaction {
 class Deposit extends Transaction {
 
   get value() {
-    return this.amount
+    return this.amount;
   }
 
   isAllowed() {
